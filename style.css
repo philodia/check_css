@@ -1,0 +1,91 @@
+/* navbar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #170bbe;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(241, 236, 236);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Formulaire A propos - travail - cv */
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadowbox {
+    width: 15em;
+    border: 1px solid #12c6cc;
+    box-shadow: 8px 8px 5px #268eb8;
+    padding: 8px 12px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    background-image: linear-gradient(180deg, #0b9b77, #69c743 40%, #c2e73b);
+  }
+
+/* contact */
+
+.warning {
+    width: 40%;
+    border: 10px ridge rgb(242, 240, 248);
+    background-color: linear-gradient(180deg, #0b9b77, #69c743 40%, #c2e73b);
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.warning input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+.warning input[type=submit] {
+    width: 50%;
+    background-color: #1f0a94;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: rgb(242, 240, 248);
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* footer */
+
+p {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
